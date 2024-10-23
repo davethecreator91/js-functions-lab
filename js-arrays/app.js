@@ -96,7 +96,7 @@ const pets = [
     
     
 ]
-*/
+
 
 // Assuming numArrays is given like this:
 let numArrays = [
@@ -116,4 +116,33 @@ let numArrays = [
   }
   
   console.log('Exercise 15 result:\n', total);
+
+  */
+  // practice
+
+  function sum(a,b,c,d) {
+    return a+b+c+d;
+  }
+
+  const numbers = [1,2,3,4,];
+
+  console.log('Spread Syntax test:',sum(...numbers));
+
+  const iterator = numbers.keys();
+
+  for (const key of iterator) {
+    console.log(key);
+  }
+  console.log();
   
+  const nums = [2, 4, 18]
+
+  const movies = ['barbie', 'Get Out', 'Superman', 'The Joker', 'Batman', 'Spiderman', 'Green Lantern', 'Barney', 'The Grinch', 'Santa', 'Home Alone', 'Jurrasic Park']
+
+// console.log(nums[1]);
+// console.log(nums.length);
+console.log(movies.at(-1));
+
+movies.at(-1) = 'Sharknado'
+
+console.log(movies.at(-1));

@@ -1,0 +1,362 @@
+.m-buttercup-cart {
+    position: relative;
+    width: 375px;
+    height: 698px;
+    background-color: var(--world-peascreminibase);
+    border-radius: 36px;
+    overflow: hidden;
+  }
+  
+  .m-buttercup-cart .overlap-group {
+    position: absolute;
+    width: 375px;
+    height: 400px;
+    top: 150px;
+    left: 0;
+  }
+  
+  .m-buttercup-cart .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 39px;
+    left: 188px;
+  }
+  
+  .m-buttercup-cart .div {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .m-buttercup-cart .basket-list {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 400px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .m-buttercup-cart .m-basket-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .m-buttercup-cart .image {
+    position: relative;
+    width: 124px;
+    height: 124px;
+    border-radius: 12px;
+    background-image: url(./img/image-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .m-buttercup-cart .item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .m-buttercup-cart .name-and-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .m-buttercup-cart .item-name {
+    margin-top: -1.00px;
+    font-family: var(--handheld-body-large-bold-font-family);
+    font-weight: var(--handheld-body-large-bold-font-weight);
+    color: var(--world-peascompostbase);
+    font-size: var(--handheld-body-large-bold-font-size);
+    letter-spacing: var(--handheld-body-large-bold-letter-spacing);
+    line-height: var(--handheld-body-large-bold-line-height);
+    position: relative;
+    align-self: stretch;
+    font-style: var(--handheld-body-large-bold-font-style);
+  }
+  
+  .m-buttercup-cart .element-qty {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--handheld-body-large-default-font-family);
+    font-weight: var(--handheld-body-large-default-font-weight);
+    color: var(--world-peascompostbase);
+    font-size: var(--handheld-body-large-default-font-size);
+    letter-spacing: var(--handheld-body-large-default-letter-spacing);
+    line-height: var(--handheld-body-large-default-line-height);
+    font-style: var(--handheld-body-large-default-font-style);
+  }
+  
+  .m-buttercup-cart .m-qty-stepper {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .m-buttercup-cart .qty-selector {
+    display: flex;
+    width: 58px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: var(--world-peascompostbase);
+  }
+  
+  .m-buttercup-cart .element {
+    position: relative;
+    flex: 1;
+    font-family: var(--handheld-body-large-default-font-family);
+    font-weight: var(--handheld-body-large-default-font-weight);
+    color: var(--world-peascompostbase);
+    font-size: var(--handheld-body-large-default-font-size);
+    text-align: center;
+    letter-spacing: var(--handheld-body-large-default-letter-spacing);
+    line-height: var(--handheld-body-large-default-line-height);
+    font-style: var(--handheld-body-large-default-font-style);
+  }
+  
+  .m-buttercup-cart .frame-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .m-buttercup-cart .div-wrapper {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: var(--world-peascompostbase);
+  }
+  
+  .m-buttercup-cart .img-wrapper {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .m-buttercup-cart .plus {
+    position: absolute;
+    width: 8px;
+    height: 1px;
+    top: 10px;
+    left: 6px;
+  }
+  
+  .m-buttercup-cart .img {
+    height: 8px;
+    top: 6px;
+    left: 6px;
+    position: absolute;
+    width: 8px;
+  }
+  
+  .m-buttercup-cart .image-2 {
+    position: relative;
+    width: 124px;
+    height: 124px;
+    border-radius: 12px;
+    background-image: url(./img/image-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .m-buttercup-cart .image-3 {
+    position: relative;
+    width: 124px;
+    height: 124px;
+    border-radius: 12px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .m-buttercup-cart .plus-2 {
+    height: 1px;
+    top: 2292px;
+    left: 2766px;
+    position: absolute;
+    width: 8px;
+  }
+  
+  .m-buttercup-cart .plus-3 {
+    height: 1px;
+    top: 6px;
+    left: 6px;
+    position: absolute;
+    width: 8px;
+  }
+  
+  .m-buttercup-cart .frame-3 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 24px 24px;
+    position: absolute;
+    top: 550px;
+    left: 0;
+    background-color: var(--world-peascreminibase);
+  }
+  
+  .m-buttercup-cart .rectangle {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: var(--world-peascompostbase);
+  }
+  
+  .m-buttercup-cart .frame-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .m-buttercup-cart .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--handheld-body-large-default-font-family);
+    font-weight: var(--handheld-body-large-default-font-weight);
+    color: var(--world-peascompostbase);
+    font-size: var(--handheld-body-large-default-font-size);
+    letter-spacing: var(--handheld-body-large-default-letter-spacing);
+    line-height: var(--handheld-body-large-default-line-height);
+    white-space: nowrap;
+    font-style: var(--handheld-body-large-default-font-style);
+  }
+  
+  .m-buttercup-cart .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--handheld-body-large-bold-font-family);
+    font-weight: var(--handheld-body-large-bold-font-weight);
+    color: var(--world-peascompostbase);
+    font-size: var(--handheld-body-large-bold-font-size);
+    text-align: right;
+    letter-spacing: var(--handheld-body-large-bold-letter-spacing);
+    line-height: var(--handheld-body-large-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--handheld-body-large-bold-font-style);
+  }
+  
+  .m-buttercup-cart .m-button-pill {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--world-peascompostbase);
+    border-radius: 12px;
+  }
+  
+  .m-buttercup-cart .button-label {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    font-family: var(--handheld-body-large-default-font-family);
+    font-weight: var(--handheld-body-large-default-font-weight);
+    color: var(--world-peascreminibase);
+    font-size: var(--handheld-body-large-default-font-size);
+    letter-spacing: var(--handheld-body-large-default-letter-spacing);
+    line-height: var(--handheld-body-large-default-line-height);
+    white-space: nowrap;
+    font-style: var(--handheld-body-large-default-font-style);
+  }
+  
+  .m-buttercup-cart .img-2 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .m-buttercup-cart .text-wrapper-3 {
+    position: absolute;
+    width: 313px;
+    height: 58px;
+    top: 71px;
+    left: 24px;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--world-peascompostbase);
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -0.48px;
+    line-height: 57.6px;
+  }
+  
+  .m-buttercup-cart .m-primary-nav {
+    display: flex;
+    width: 375px;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .m-buttercup-cart .hamburger {
+    position: absolute;
+    width: 18px;
+    height: 8px;
+    top: 6px;
+    left: 1px;
+  }
+  
+  .m-buttercup-cart .logo-wordmark {
+    position: relative;
+    width: 120px;
+    height: 22px;
+  }
+  
